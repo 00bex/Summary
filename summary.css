@@ -1,0 +1,177 @@
+
+
+
+
+
+
+body{
+    background-color: rgb(232, 248, 248);
+}
+.container{/* to style the body*/
+    background-color: rgb(255, 248, 251);
+    width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    margin-left: 560px;
+    margin-top: 100px;
+    border-width: 3rem;
+    border-radius:26px;/*to make the edge of your border curved*/
+    
+}
+.left_side{/* to style the blue side*/
+    background-color: rgb(25, 55, 138);
+    width: 297.5px;
+    height: 400px; 
+    margin: 0 auto;
+    margin-right: 300px;
+    border-radius:26px;
+    
+}
+.right_side{/*to style the white side*/
+    background-color: rgb(255, 248, 251);
+    width: 297.5px;
+    height: 400px; 
+    margin: 0 auto;
+    text-align: center;
+    position:absolute;
+    right: 335px;
+    top: 100px;
+    border-radius:26px;
+    
+}
+.result{
+    color:rgb(146, 146, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.circle{/*to style the circle*/
+    background-color: rgb(1, 1, 184);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius:90px;
+}
+.score{
+    color:rgb(228, 228, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.total{
+    color:rgb(127, 127, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.remark{
+    color:rgb(228, 228, 240);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+.paragraph{
+    color:rgb(159, 159, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+.summary{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: lighter;
+    padding: 10px;
+}
+.reaction{/*to style the reaction body */
+    background-color: rgb(255, 239, 241);
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;/*to make the edge of your border curved*/
+    color:black;
+    box-decoration-break: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reaction_txt{
+    text-align: left;
+    padding: 10px;
+    color: rgb(235, 83, 109);
+}
+.b1{
+    color:black;
+    text-align: right;
+}
+.memory{/*to style the memory body*/
+    background-color: rgb(231, 220, 184);
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;/*to make the edge of your border curved*/
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.memory_txt{
+    text-align: left;
+    padding: 10px;
+    color:rgb(192, 134, 10)
+}
+.b2{
+    color:black;
+    text-align: right;
+}
+.verbal{/* to style the verbal body*/
+    background-color: rgba(210, 226, 217, 0.726);
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;/*to make the edge of your border curved*/
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.verbal_txt{
+    text-align: left;
+    padding: 10px;
+    color:rgba(76, 133, 76, 0.452);
+}
+.b3{
+    color:black;
+    text-align: right;
+}
+.visual{/*to style the visual body*/
+    background-color: rgb(228, 228, 247);
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;/*to make the edge of your border curved*/
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.visual_txt{
+    text-align: left;
+    padding: 10px;
+    color:rgb(9, 9, 102)
+}
+.b4{
+    color:black;
+    text-align: right;
+}
+.button{/*to style the button*/
+    background-color: rgb(5, 5, 99);
+    width: 260px;
+    height: 40px;
+    margin: 0 auto;/*to centralise*/
+    border-radius: 20px;/*to style the container*/
+    font-size: 15px;
+    color:white;
+    padding: 10px;/*to align content to the position you want*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
